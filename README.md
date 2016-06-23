@@ -5,4 +5,4 @@
 - 2
 
 ##开发环境
-JDK1.7以上版本  Eclipse(Demo所用开发工具)
+Eclipse(Demo所用开发工具) 
