@@ -1,5 +1,6 @@
 
-# 现在支付聚合SDk Java
+# 现在支付
+聚合支付AndroidSDK 
 ##目录
 - docs目录下存放不同渠道接入文档
 - example目录下的demo测试案例，运行demo需要在项目中引入百度SDK（libs目录下）
