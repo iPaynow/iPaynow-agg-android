@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">聚合支付插件</string>
+    <string name="btn_name">聚合支付</string>
+    <string name="bn_upmp_pay_name">银联支付</string>
+    <string name="bn_alipay_pay_name">支付宝支付</string>
+    <string name="bn_dotpay_name">点卡支付</string>
+    <string name="bn_rechargpay_name">充值卡支付</string>
+    <string name="bn_wechatpg_name">微信支付(插件版)</string>
+    <string name="bn_wechatwp_name">微信支付(WAP版)</string>
+    <string name="bn_badiu_name">百度支付</string>
+    <string name="bn_qqpay_name">QQ支付</string>
+    <string name="us">订单信息</string>
+    <string name="title_activity_we_chat_pay">WeChatPayActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_other">OtherActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
