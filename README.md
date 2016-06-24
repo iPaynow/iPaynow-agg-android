@@ -6,7 +6,7 @@
 - libs目录下存放jar、so等资源文件
 
 ##开发环境
-Eclipse(Demo所用开发工具)  
+Eclipse(Demo使用开发工具)  
 
 ##接入流程
 可以参考demo或者docs下的详细说明文档 
