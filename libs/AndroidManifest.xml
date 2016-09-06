@@ -74,7 +74,7 @@
             android:exported="false"
             android:launchMode="singleTop"
             android:screenOrientation="behind"
-            android:theme="@android:style/Theme.NoDisplay" />
+            android:theme="@android:style/Theme.Dialog" />
         <!-- 微信插件版支付 -->
         <activity
             android:name="com.ipaynow.plugin.inner_plugin.wechatpg.activity.WXPayActivity"
