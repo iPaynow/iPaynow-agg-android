@@ -36,7 +36,8 @@ public class MainActivity extends Activity implements ReceivePayResult {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        IpaynowPlugin.getInstance().init(this)./*取消检测微信、qq等安装情况*/unCkeckEnvironment();// 1.插件初始化
+        IpaynowPlugin.getInstance().init(this);// 1.插件初始化
+        IpaynowPlugin.getInstance().unCkeckEnvironment();//无论微信、qq安装与否，网关页面都显示渠道按钮。
     }
 
     /**
@@ -112,7 +113,7 @@ public class MainActivity extends Activity implements ReceivePayResult {
         preSign.mhtOrderName = "鼠标";
         preSign.mhtOrderType = "01";
         preSign.mhtCurrencyType = "156";
-        preSign.mhtOrderAmt = "10";
+        preSign.mhtOrderAmt = "1";
         preSign.mhtOrderDetail = "关于支付的演示";
         preSign.mhtOrderTimeOut = "3600";
         preSign.notifyUrl = "http://localhost:10802/";
